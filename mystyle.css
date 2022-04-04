@@ -1,0 +1,42 @@
+@font-face {
+  font-family: sahel;
+  src: url(./fonts/Sahel-Bold-FD.ttf);
+}
+
+
+
+html , body {
+  margin : 0;
+  font-family: sahel;
+}
+
+
+div.table {
+  border-collapse: collapse;
+  display : flex;
+  flex-wrap: wrap;
+  /* background-color: rgb(88, 80, 80); */
+}
+
+div.container {
+  display : flex;
+  flex-direction : row;
+  margin-bottom: 7em;
+}
+
+div.container:last-child {
+  margin-bottom: 0;
+}
+
+div.column {
+  display : flex;
+  flex-direction : column;
+}
+
+div.cell {
+  border: 2px solid #000;
+  width : 60mm;
+  padding: 1rem;
+  text-align: center;
+  font-size: 4rem;
+}
